@@ -1,0 +1,55 @@
+body{
+    display:flex;
+    height: 400px;
+    flex-direction: column;
+    padding: 1em;
+    background-color:aquamarine    
+    }
+#main{
+    display: flex;
+    flex: 1;
+}
+nav{
+
+}
+input{
+    background: transparent;
+}
+label{
+    background: transparent;
+}
+textarea{
+    background: transparent;
+}
+aside{    
+    font-size: 12px;
+    
+}
+header, footer{    
+    margin: 1px;
+}
+nav, aside, header, footer{
+    flex: 1;
+    padding: 1rem;
+    margin: 1px;
+}
+body{
+    background-image: url("inagen\ background\ \(moto\).jpg");
+}
+header{
+    
+}
+@media (min-with 600px){}
+
+i{
+    color: rgb(8, 8, 8);
+}
+li{
+    color: rgb(12, 12, 12);
+}
+a{
+    color: rgb(7, 7, 7);
+}
+aside{
+    align-items:center;
+}
